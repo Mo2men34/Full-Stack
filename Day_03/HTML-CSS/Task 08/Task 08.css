@@ -1,0 +1,22 @@
+div {
+    background-color: rgb(220, 220, 220);
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    width: 1000px;
+    padding: 40px 0px;
+    margin: auto;
+    position: relative;
+}
+
+div::before {
+    content: "1";
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+    left: -35px;
+    top: 18px;
+}
