@@ -1,0 +1,26 @@
+div
+{
+    background-color: rgb(231, 231, 231);
+    height: 120px;
+    width: 800px;
+    margin: 30px 30px;
+    padding-left: 30px;
+    color:black;
+    font-family: sans-serif;
+    font-size: 40px;
+    line-height: 120px;
+    box-shadow: 0px 0px 0px 20px rgb(231, 231, 231);
+}
+.element-1
+{
+    border-left: rgb(244, 0, 138) solid 15px;
+}
+.element-2
+{
+    border-left: rgb(244, 0, 138) solid 15px;
+    visibility: hidden;
+}
+.element-3
+{
+    border-left: rgb(0, 143, 117) solid 15px;
+}
