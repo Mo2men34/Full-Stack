@@ -1,0 +1,30 @@
+.parent
+{
+    padding: 30px 30px 30px 30px;
+    width: 800px;
+    height: 400px;
+    border: rgb(98, 0, 118) solid 2px;
+}
+div
+{
+    height: 70px;
+    padding: 43px 0 0 30px;
+    margin:0 0 30px 0;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+.div-1
+{
+    background-color: rgb(128, 0, 255);
+}
+.div-2
+{
+    background-color: rgba(128, 0, 255, 0.5);
+}
+.div-3
+{
+    background-color: rgb(128, 0, 255,0.1);
+}
+
