@@ -1,0 +1,35 @@
+.parent
+{
+    background-color: rgb(237, 237, 237);
+    padding-top: 15px;
+    height: 470px;
+    text-align: center;
+}
+p{
+    background-color: rgb(207, 207, 207);
+    padding: 30px 0px;
+    margin: 15px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.row-1 p
+{
+    width: calc(100% - 30px);
+}
+.row-2 p
+{
+    display: inline;
+    width: calc(100%/3 - 30px);
+}
+.row-3 p
+{
+    display: inline;
+    width: calc(100%/2 - 30px);
+}
+.row-4 p
+{
+    display: inline;
+    width: calc(100%/4 - 30px);
+}
