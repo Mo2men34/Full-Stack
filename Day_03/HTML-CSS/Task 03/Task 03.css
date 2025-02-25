@@ -1,0 +1,35 @@
+div
+{
+    background-color: rgb(208, 208, 208);
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    margin: 30px 30px;
+    color:black;
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+    box-shadow: 0px 0px 0px 15px black;
+}
+.shape-1
+{
+    border: red solid 15px;
+}
+.shape-2
+{
+    border: 15px solid;
+    border-top-color: blue;
+    border-bottom-color: blue;
+    border-right-color: green;
+    border-left-color: green;
+}
+.shape-3
+{
+    border: 15px dashed;
+    border-top-color: red;
+    border-bottom-color: blue;
+    border-right-color: green;
+    border-left-color: yellow;
+}
