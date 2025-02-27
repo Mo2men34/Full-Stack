@@ -1,0 +1,22 @@
+.parent {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 60px;
+    gap: 25px;
+  }
+  .parent > div
+  {
+    background-color: #646464;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
