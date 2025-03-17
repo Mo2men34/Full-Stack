@@ -32,7 +32,7 @@ div.style.width = '600px';
 div.style.margin = '10px';
 div.style.display = 'flex';
 div.style.flexWrap = 'wrap';
-div.style.justifyContent = 'center';
+div.style.justifyContent = 'flex-start';
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
@@ -49,7 +49,7 @@ form.addEventListener("submit", function (event) {
     element.title = "Element";
     element.textContent = text;
 
-    element.style.width = "100px"; 
+    element.style.width = "190px"; 
     element.style.height = "50px";
     element.style.display = "inline-flex"; 
     element.style.justifyContent = "center"; 
